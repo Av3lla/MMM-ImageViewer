@@ -30,7 +30,7 @@ Module.register("ImageViewer", {
   getDom: function() {
     var imageDiv = document.createElement("img");
     imageDiv.className = "image";
-    imageDiv.setAttribute('src', 'https://i.ytimg.com/vi/xywPSq02xKk/maxresdefault.jpg');
+    imageDiv.setAttribute('src', `${this.config.url}`);
     imageDiv.setAttribute('width', `${this.config.width}`);
     imageDiv.setAttribute('height', `${this.config.height}`);
     imageDiv.setAttribute('alt', 'image not loaded.');
