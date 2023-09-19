@@ -23,7 +23,7 @@ A module for the [MagicMirror](https://github.com/MichMich/MagicMirror) to displ
     ```shell
     cd ~/MagicMirror/modules && git clone https://github.com/Av3lla/url-imageviewer-module
     ```
-    ### [* Folder name issue](#known-issues)
+    ~~### [* Folder name issue](#known-issues)~~
 
     ### Configuration
 
@@ -31,7 +31,7 @@ A module for the [MagicMirror](https://github.com/MichMich/MagicMirror) to displ
 
     ```js
     {
-    	module: 'ImageViewer',
+    	module: 'MMM-ImageViewer',
     	position: 'top_left',
     	config: {
             headerText: 'text',
@@ -52,6 +52,3 @@ A module for the [MagicMirror](https://github.com/MichMich/MagicMirror) to displ
 ---
 
 ### NOTE
-
-#### Known Issues
-  * You Need to change the *folder name* from `url-imageviewer-module` to `ImageViewer`.

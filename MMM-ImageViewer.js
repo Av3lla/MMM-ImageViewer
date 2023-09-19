@@ -4,7 +4,7 @@
 * By Avella https://github.com/Av3lla
 * MIT Licensed.
 */
-Module.register("ImageViewer", {
+Module.register("MMM-ImageViewer", {
   defaults: {
     headerText: 'Image',
     url: null,
@@ -20,7 +20,7 @@ Module.register("ImageViewer", {
   },
   
   getStyles: function() {
-    return ["ImageViewer.css"];
+    return ["MMM-ImageViewer.css"];
   },
   
   getHeader: function() {
